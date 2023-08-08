@@ -1,4 +1,4 @@
-package com.vinayak09.bloodbankbyvinayak;
+package com.vinayak09.bloodbankbyiiitu;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,7 +15,6 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.FrameLayout;
-import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.FirebaseAuth;
@@ -23,8 +22,8 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.vinayak09.bloodbankbyvinayak.adapters.UserAdapter;
-import com.vinayak09.bloodbankbyvinayak.model.User;
+import com.vinayak09.bloodbankbyiiitu.adapters.UserAdapter;
+import com.vinayak09.bloodbankbyiiitu.model.User;
 
 import java.util.ArrayList;
 import java.util.HashMap;

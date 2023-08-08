@@ -1,8 +1,6 @@
-package com.vinayak09.bloodbankbyvinayak.adapters;
+package com.vinayak09.bloodbankbyiiitu.adapters;
 
 import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Build;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,10 +11,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.vinayak09.bloodbankbyvinayak.R;
-import com.vinayak09.bloodbankbyvinayak.StringCaseConverter;
-import com.vinayak09.bloodbankbyvinayak.listeners.MyOnClickListener;
-import com.vinayak09.bloodbankbyvinayak.model.User;
+import com.vinayak09.bloodbankbyiiitu.R;
+import com.vinayak09.bloodbankbyiiitu.StringCaseConverter;
+import com.vinayak09.bloodbankbyiiitu.listeners.MyOnClickListener;
+import com.vinayak09.bloodbankbyiiitu.model.User;
 
 import java.util.ArrayList;
 import java.util.List;

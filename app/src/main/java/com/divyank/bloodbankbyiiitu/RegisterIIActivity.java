@@ -1,4 +1,4 @@
-package com.vinayak09.bloodbankbyvinayak;
+package com.vinayak09.bloodbankbyiiitu;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -1,4 +1,4 @@
-package com.vinayak09.bloodbankbyvinayak;
+package com.vinayak09.bloodbankbyiiitu;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,13 +13,11 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.vinayak09.bloodbankbyvinayak.model.User;
+import com.vinayak09.bloodbankbyiiitu.model.User;
 
-//Programmed by Vinayak Patil
-//On Tue, 11-05-21
-
+//Programmed by Divyank Sharma
+//On Tue, 15-03-23
 public class SplashScreen extends AppCompatActivity {
-
     FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,9 +26,7 @@ public class SplashScreen extends AppCompatActivity {
         new CountDownTimer(1000, 500) {
             @Override
             public void onTick(long millisUntilFinished) {
-
             }
-
             @Override
             public void onFinish() {
                 if(user != null){
@@ -43,7 +39,6 @@ public class SplashScreen extends AppCompatActivity {
             }
         }.start();
     }
-
     private void getSelf() {
         FirebaseDatabase.getInstance().getReference("Donors/"+user.getUid())
                 .addListenerForSingleValueEvent(new ValueEventListener() {
